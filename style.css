@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=PT+Sans+Narrow:wght@400;700&display=swap");
+@media  all {  
+  *{padding: 0;margin: 0;}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=PT+Sans+Narrow:wght@400;700&display=swap";)
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +23,7 @@ html {
   width: 100%;
   display: flex;
   align-items: center;
+  box-shadow: none;
 }
 .logo {
   font-size: 36px;
@@ -114,10 +118,20 @@ div.para {
 .rose {
   position: absolute;
 }
+.nabs {
+  margin-top: 165px;
+  margin-bottom: 60px;
+  font-size: 55px;
+  color: #1f42c3;
+  font-family: "Montserrat";
+}
 .ABC {
   font-family: "Montserrat", "PT Sans Narrow", sans-serif;
   color: #1f42c3;
   font-size: 30px;
+  margin-bottom: 40 px;
+}
+.cqM h4 {
   margin-bottom: 40px;
 }
 .pABC {
@@ -329,7 +343,7 @@ hr {
 .h06 {
   color: #1f42c3;
   font-family: "Montserrat";
-  padding-left: 475px;
+  padding-left: 375px;
   padding-bottom: 40px;
 }
 .img06 {
@@ -406,7 +420,7 @@ hr {
   color: white;
   font-family: "Montserrat";
   letter-spacing: 2px;
-  left: 470px;
+  left: 570px;
   font-size: 55px;
   margin-bottom: 76px;
 }
@@ -437,10 +451,10 @@ hr {
   z-index: 3;
   position: relative;
   bottom: 250px;
-  left: 230px;
+  left: 205px;
 }
 .contentcontainer01 h2 {
-  padding-left: 80px;
+  padding-left: 105px;
   color: #f53978;
   font-size: 24px;
   font-family: "Montserrat";
@@ -451,20 +465,11 @@ hr {
   padding-left: 37px;
   margin-bottom: 20px;
 }
-.contentcontainer01 button {
-  padding: 10px 30px;
-  text-decoration: none;
-  border: solid #1f42c3 2px;
-  letter-spacing: 3px;
-  background-color: #1f42c3;
-  color: white;
-  position: relative;
-  left: 55px;
-}
+
 .contentcontainer02 {
   z-index: 3;
   position: relative;
-  bottom: 432px;
+  bottom: 422px;
   left: 625px;
 }
 .contentcontainer02 h2 {
@@ -479,44 +484,26 @@ hr {
   padding-left: 47px;
   margin-bottom: 20px;
 }
-.contentcontainer02 button {
-  padding: 10px 30px;
-  text-decoration: none;
-  border: solid #1f42c3 2px;
-  letter-spacing: 3px;
-  background-color: #1f42c3;
-  color: white;
-  position: relative;
-  left: 55px;
-}
+
 .contentcontainer03 {
   z-index: 3;
   position: relative;
-  bottom: 614px;
+  bottom: 589px;
   left: 1015px;
 }
 .contentcontainer03 h2 {
-  padding-left: 80px;
+  padding-left: 93px;
   color: #f53978;
   font-size: 24px;
   font-family: "Montserrat";
   margin-bottom: 20px;
 }
 .contentcontainer03 h3 {
-  font-size: 18px;
-  padding-left: 47px;
+  font-size: 17px;
+  padding-left: 18px;
   margin-bottom: 20px;
 }
-.contentcontainer03 button {
-  padding: 10px 30px;
-  text-decoration: none;
-  border: solid #1f42c3 2px;
-  letter-spacing: 3px;
-  background-color: #1f42c3;
-  color: white;
-  position: relative;
-  left: 55px;
-}
+
 .container08 {
   background: #e9edfd;
   margin-top: -450px;
@@ -584,6 +571,7 @@ hr {
   position: relative;
   bottom: 1268px;
   left: 234px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 65%), 0 2px 4px rgb(0 0 0 / 6%);
 }
 .pinkbox h1 {
   color: white;
@@ -643,4 +631,7 @@ hr {
   position: relative;
   left: 547px;
   top: 50px;
+}
+html {
+  background-color: #e9edfd;
 }
