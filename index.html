@@ -64,17 +64,10 @@ rel="stylesheet"
   <body>
       <div class="heading">
     <div class="container">
-      <div class="navbar">
+      <div class="navbar" style="top:9%;">
         <img src="imgs-svg/index.jpg" style="height: 100px;
-        border-radius: 100%">
-         <nav class="noneed">
-            <ul>
-                <li><a href="#">link1</a></li>
-                <li><a href="#">link2</a></li>
-                <li><a href="#">link3</a></li>
-                <li><a href="#">link4</a></li>
-            </ul>
-         </nav>
+        border-radius: 100%; margin-top:20px;"  >
+  
          <!--btn toggler-->
          <button
          class="btn  bt01"
@@ -92,9 +85,9 @@ rel="stylesheet"
          aria-labelledby="offcanvasWithBackdropLabel"
          >
          <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">
-            Offcanvas with backdrop
-          </h5>
+          <h1 class="offcanvas-title" id="offcanvasWithBackdropLabel">
+            menu
+          </h1>
           <button
             type="button"
             class="btn-close text-reset"
@@ -102,26 +95,34 @@ rel="stylesheet"
             aria-label="Close"
           ></button>
          </div>
-        <div class="offcanvas-body">
-          <a href="#" >link 3</a>
+        <div class="offcanvas-body"  style="font-size: 35px;">
+          <a href="#welcome" style="text-decoration: none;font-size:15px ;"  > <h3 >  bienvenu</h3></a> </br>
+          <a href="#section2" style="text-decoration: none;">   <h3>qui sont nous ? </h3> </a> </br>
+          <a href="#section3" style="text-decoration: none;"><h3>nous contacter</h3></a> </br>
+          <a href="#section04" style="text-decoration: none;" ><h3>FAQ</h3></a> </br>
+          <a href="#section05" style="text-decoration: none;" ><h3>témoignages</h3></a> </br>
+          <a href="#section7"  style="text-decoration: none;"><h3>nos services</h3></a> </br>
+          <a href="#section8"  style="text-decoration: none;"><h3>envoyer un email</h3> </a> </br>
+
         </div>
         <!--end of toggler-->       
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="welcome">
         <div class="col-1">
-            <h2>MediaMe</h2>
-           <p>  <h3> MediaMet est une agence spécialisée en marketing des médias sociaux 
+            <h2>MediaMet</h2>
+           <p>  <h3 style="margin-bottom: 50px;" > MediaMet est une agence spécialisée en marketing des médias sociaux 
               Notre mission principale est de mettre a profit
                notre expérience a tous nos clients en déployant des solutions axèes sur les résultats</h3></p>
            
-            <a href="#section2"> <h3> <button type="button" class="btn btn-outline-primary" style="padding: 14px 30px;
+            <a href="#section2"> <h3> <button type="button" class="btn btn-outline-primary" style="padding: 18px 30px;
               text-decoration: none;
               border: solid #ffffff 2px;
-              letter-spacing: 3px;
-              
+              letter-spacing: 3px; 
               color: white;
-              border-radius: 61px;  "> <h3> en savoire plus  </h3></button> </h3> </a> 
+              
+              position: relative;
+                "> <h3> en savoire plus  </h3></button> </h3> </a> 
         </div>
         <div class="col-2">
             <img src="./imgs-svg/asset.png" class="thinking">
@@ -129,7 +130,7 @@ rel="stylesheet"
     </div>
     </div>
     <!--secand section-->
-    <div class="section2" style="width: 100%; height: 850px; background-color:white; display:flex; "id="section2"> 
+    <div class="section2" style="width: 100%; height: 865px; background-color:white; display:flex; "id="section2"> 
       
       
       <div style="width:50%; height: 100%;"> 
@@ -137,11 +138,11 @@ rel="stylesheet"
         
       </div>
       
-      <div style="width:50%; height:100%;text-align: center; " >       
-      <h1 class="ABC" style="font-size:85px;"> c'est qui MEDIAMET  ? </h1>
+      <div class="cqM" style="width:50%; height:100%;text-align: center; " >       
+      <h1 class="nabs" > C'est Qui MEDIAMET  ? </h1>
       <p style="   margin: auto;" >  <h4> Agence web et communication digitale au Maroc
-        Offrir une expérience digitale unique et efficace à vos clients grâce à une stratégie
-         webmarketing adaptée à vos objectifs, aux tendances du web et aux habitudes des internautes.... </h4> </p>
+        Offrir <br>une expérience digitale unique et efficace à vos clients <br>grâce à une stratégie
+         webmarketing adaptée à vos objectifs,<br> aux tendances du web et aux habitudes des internautes.... </h4> </p>
     
       <a
       class="btn btn-primary"
@@ -162,7 +163,7 @@ rel="stylesheet"
     </a>
     <div class="collapse mt-3 scroll-section" id="collapseWithScrollbar"  style="width:100%;height:100%;">
 
-      <p style="   margin: auto;" >  <h4> 
+      <p style="   margin: auto; font-size: 20px;" >  
         Agence digitale à Safi Maroc 
 MEDIAMET Digital Agency est une agence digitale et webmarketing indépendante basée au Maroc à Safi.
 Nous accompagnons les entreprises dans la définition et la mise en œuvre d’une stratégie digitale efficace,
@@ -171,7 +172,7 @@ Nous accompagnons les entreprises dans la définition et la mise en œuvre d’u
   gestion des campagnes publicitaire Facebook Ads, Google Ads, Création des chatbots...
 Notre équipe de spécialistes offre toujours des résultats exceptionnels combinant des idées 
 créatives avec notre vaste expérience. Nous pouvons vous aider à construire une relation significative 
-et durable avec vos clients en les engageant avec votre marque par le biais des médias sociaux. </h4>  </p>
+et durable avec vos clients en les engageant avec votre marque par le biais des médias sociaux.   </p>
      </div>
     
      <a
@@ -201,33 +202,33 @@ et durable avec vos clients en les engageant avec votre marque par le biais des 
 </br>
     <!--section number3-->
 
-    <div id="section3" style="display:flex; height:500px;" > 
+    <div id="section3" style="display:flex; height: 475px;" > 
 
     <div class="position-relative"  style ="width:50%; height:500px ; background-color : #f53978;">
-    <h1 class="ABC" style=" color:white; text-align:center; font-size:55px;" >nous appeler   </h1> 
+    <h1 class="ABC" style="  color:white; text-align:center; font-size:47px;   margin-top: 25px;" >Nous Appeler   </h1> 
  
-    <img style=" height: 300px;"  class="position-absolute top-50 start-50 translate-middle" src="imgs-svg/adv/undraw_phone_call_grmk.svg" > 
+    <img style=" height: 275px;"  class="position-absolute top-50 start-50 translate-middle" src="imgs-svg/adv/undraw_phone_call_grmk.svg" > 
 
-    <a href="tel:+212608491296"> <button  style="padding: 14px 30px;
+    <a href="tel:+212608491296"> <button  style="padding: 10px 30px;
       text-decoration: none;
-      border: solid #1f42c3 2px;
+      border: solid rgb(80 70 249) 2px;
       letter-spacing: 3px;
       color: white;
-      border-radius: 61px; position: relative; top: 60%;
-left: 35%;"     class=" btn btn-outline-primary"> appeler  </button> </a>
+      position: relative; top: 316px;
+left: 270px;"     class=" btn btn-outline-primary"> appeler  </button> </a>
     </div>
 
     <div  class="position-relative" style =" width:50%; height:500px ; background-color: #1f42c3;">  
-    <h1 class="ABC"style=" color:white; text-align:center; font-size:55px;" > nous contacter sur whatsapp   </h1> 
+    <h1 class="ABC"style=" color:white; text-align:center; font-size:47px;   margin-top: 25px;"  > Contacter Sur WhatsApp   </h1> 
     <img style=" height: 250px;"  class="position-absolute top-50 start-50 translate-middle" src="imgs-svg/adv/undraw_online_chat_re_c4lx.svg"  >
     <a href="https://api.whatsapp.com/send/?phone=%2B212608491296&text&app_absent=0" target="_blank"> <button  style="
-      padding: 14px 30px;
+      padding: 10px 30px;
 text-decoration: none;
-border: solid green 2px;
+border: solid rgb(14, 100, 14) 2px;
 letter-spacing: 3px;
 color: white;
-border-radius: 61px;position: relative; top: 47%;
-left: 35%; "   class=" btn btn-outline-success" >    whatsapp  </button> </a>
+position: relative; top: 316px;
+left: 270px; "   class=" btn btn-outline-success" >    whatsapp  </button> </a>
     </div>
 
   </div>
@@ -236,7 +237,7 @@ left: 35%; "   class=" btn btn-outline-success" >    whatsapp  </button> </a>
 
     
     <!--section number4-->
-    <div class="container04">
+    <div class="container04" id="section04">
         <h3 class="faq">FAQ</h3>
         <h1 class="FAQ">les questions les plus répéter  </h1>
         <!--accordion-->
@@ -289,17 +290,16 @@ Vous pouvez nous contacter pour plus d'informations
     
   
     <!--section number5-->
-    <div class="container05">
+    <div class="container05" id="section05">
       <h1 class="h06" style="color: white; font-size:50px;text-align:left;margin:auto;"> Témoignages de nos chers clients</h1>
     
       <div class="row row-cols-1 row-cols-md-3 g-4" style="position: relative;
-      top: -18%;
-      ">
+      top: -18px; padding: 3px 35px;">
         <div class="col">
           <div class="card h-100">
             <img
             style="height:300px;width:100%"
-              src="https://scontent.fcmn2-1.fna.fbcdn.net/v/t1.6435-9/p640x640/209439228_183378990407080_5365688888155692628_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=e3f864&_nc_ohc=fxvKaCVerGoAX-NWK7a&_nc_ht=scontent.fcmn2-1.fna&oh=00_AT8fTZIGgeAiDbxHlzb4CBVQ9CTbzYfitV3b9FEUkGLMxA&oe=61FDD557"
+              src="imgs-svg/sophia.jpg"
               class="card-img-top"
               alt="Skyscrapers"
             />
@@ -318,7 +318,7 @@ Vous pouvez nous contacter pour plus d'informations
         <div class="col">
           <div class="card h-100">
             <img
-              src="https://scontent.fcmn2-1.fna.fbcdn.net/v/t39.30808-6/s960x960/252061308_6391837527557167_5626149714425428370_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=9FJNRwEKwv0AX_27QIX&_nc_ht=scontent.fcmn2-1.fna&oh=00_AT99bIMlXcFCcyX1F2KEsqfOkqA08IFwEWB452aoRFUhwA&oe=61DD22A1"
+              src="imgs-svg/phipch.jpg"
               class="card-img-top"
               alt="Los Angeles Skyscrapers"
             />
@@ -337,9 +337,10 @@ Vous pouvez nous contacter pour plus d'informations
         <div class="col">
           <div class="card h-100">
             <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+              src="imgs-svg/kyzen.jpg"
               class="card-img-top"
               alt="Palm Springs Road"
+              style="height: 280px;"
             />
             <div class="card-body">
               <h5 class="card-title">Kayzen</h5>
@@ -378,7 +379,7 @@ Vous pouvez nous contacter pour plus d'informations
 
 <!-- Carousel wrapper -->
       <!--section number7-->
-      <div class="container07">
+      <div class="container07" id="section7">
         <h1 class="MS07" >notre services </h1>
         <p class="MS071" > <h3 style=" color:white; text-align:center;"> MediaMet a l'honore  de vous offrir de nombreux services dont le plus important reste : </h3>  </p>
        
@@ -397,15 +398,15 @@ Vous pouvez nous contacter pour plus d'informations
         </div>
         <div class="contentcontainer02" >
           <h2 style="padding-left: 36px;"  > Development web </h3>
-            Parce que nous aspirons toujours à fournir le</br> meilleur, nous vous fournissons un service</br> professionnel
-             de creation du site web et du </br> landing page pour que vous pouvez attire plus </br> des clients d'une haute gamme </br> </h3>           
+            Parce que nous aspirons toujours à fournir </br>le meilleur, nous vous fournissons un service</br> professionnel
+             de creation du site web</br> et du  landing page pour que vous pouvez</br> attire plus  des clients d'une haute gamme </br> </h3>           
             
         </div>
         <div class="contentcontainer03">
           <h2>publicité</h3>
-            <h3> notre équipe des experts dans les </br>publicité social media est toujours a </br> votre service 
+            <h3> notre équipe des experts dans </br>les publicité social media est toujours a </br> votre service 
               on augmente le succe </br>de votre  business en lancant des </br>
-               campagnes bien precis et </br> professionel  sur tous les </br> plateformes de social media pour </br> vous ramener les bon clients 
+               campagnes bien precis et  professionel </br> sur tous les  plateformes de social media</br> pour  vous ramener les bon clients 
               
             </h3>           
             
@@ -415,13 +416,17 @@ Vous pouvez nous contacter pour plus d'informations
 
       <!--section number8-->
         <div class="container08" style="display:flex;">
-        <div > <img src="./imgs-svg/face01-removebg-preview-modified(1).png"    />   </div>
-        <div> 
-          <h1>  M. EL MEHDI BOUSSAADANE  </h1>
+        <div > <img  style="position: relative; bottom:30px"src="./imgs-svg/face01-removebg-preview-modifiedtwice.png"    />   </div>
+        <div style="margin-left: 120px
+        ;" > 
+          <h1 style="    color: #1f42c3;
+          font-family: Montserrat; margin-bottom: 50px; "  > Le Mot du Directeur  </h1>
           <p> 
-            "MediMet est non seulement une agence du digital 
-            marketing mais c’est le phare qui
-             vous illuminera votre chemin en toutes azimutes pour une digitalisation réussie."    </p> 
+            <h3>   M. EL MEHDI BOUSSAADANE
+"MediMet est non seulement une agence du 
+digital marketing mais c’est le phare qui vous illuminera votre chemin 
+en toutes azimutes pour une digitalisation réussie." </h3>  </p> 
+   
         </div>
         </div>
       </br>
@@ -429,7 +434,7 @@ Vous pouvez nous contacter pour plus d'informations
 
 
      <!--section number9-->
-     <div class="container09">
+     <div class="container09" id="section8">
         <div  class="bluebox"></div>
         <img src="./imgs-svg/fs.jpg" class="chiimage">
         <div class="pinkbox">
@@ -437,7 +442,10 @@ Vous pouvez nous contacter pour plus d'informations
           <input class="intext" type="text" placeholder="   Enter your Name" >
           <input class="inemail"  type="email" placeholder="  Enter your Email Adress" >
           <textarea></textarea>
-          <button>SUBMIT</button>
+         <a href="mailto:media.met01@gmail.com" target= "_blank" ><button type="button"
+          class="btn btn-outline-success btn-rounded"
+          data-mdb-ripple-color="dark" >SUBMIT</button> </a>
+          
         </div>
      </div>
           <!--section number10-->
